@@ -1,6 +1,6 @@
 # Ansible Playbook Example
 
-Example playbook 🎁 in docker image, this image is based on https://github.com/Container-Driven-Development/ansible-playbook-base, or just take it as an inspiration and create completely own Dockerfile. 
+Example playbook 🎁 in docker image, this image is based on https://github.com/Container-Driven-Development/ansible-playbook-base, us base dir or just take it as an inspiration and create completely own Dockerfile. 
 
 Just go ahead and try run this example docker image against your playbook it will just print host ansible variables.
 
