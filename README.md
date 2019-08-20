@@ -1,6 +1,8 @@
 # Ansible Playbook Example
 
-Example playbook 🎁 in docker image, this image is based on https://github.com/Container-Driven-Development/ansible-playbook-base, but you just take it as an inspiration and create completely own Dockerfile. Just go ahead and try run this example docker image against your playbook it will just print host ansible variables.
+Example playbook 🎁 in docker image, this image is based on https://github.com/Container-Driven-Development/ansible-playbook-base, or just take it as an inspiration and create completely own Dockerfile. 
+
+Just go ahead and try run this example docker image against your playbook it will just print host ansible variables.
 
 ## Why?
 
@@ -20,7 +22,7 @@ Example playbook 🎁 in docker image, this image is based on https://github.com
 $ docker run -it \
 -v $HOME/.ssh/id_rsa:/home/ansible/.ssh/id_rsa \
 -v /path/to/inventory.yml:/ansible/inventory.yml \
-docker.io/devincan/ansible-playbook-example:<latest-tag> \
+docker.io/devincan/ansible-playbook-example:v0.1 \
 -v -e global_test_variable=test
 ```
 
@@ -49,6 +51,6 @@ $ docker run -it \
 -v $PWD:/ansible-playbook \
 -v $HOME/.ssh/id_rsa:/home/ansible/.ssh/id_rsa \
 -v /path/to/inventory.yml:/ansible/inventory.yml \
-docker.io/devincan/ansible-playbook-example:<latest-tag> \
+docker.io/devincan/ansible-playbook-example:v0.1 \
 -v -e global_test_variable=test
 ```
