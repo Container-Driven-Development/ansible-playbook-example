@@ -13,7 +13,7 @@ Just go ahead and try run this example docker image against your playbook it wil
 # How does it work?
 
 1. Build docker image including everything needed for playbook to be execute ( ansible, python libraries, roles, ansible.cfg and playbooks )
-2. Run this docker image with mouted inventory.yml and id_rsa key from you local or CI
+2. Run this docker image with mounted inventory.yml and id_rsa key from you local or CI
 3. Profit 🎩
 
 ## Run wrapped playbook
